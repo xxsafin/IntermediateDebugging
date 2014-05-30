@@ -13,14 +13,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    NSLog(@"didFinishWithOptions");
-    NSLog(@"Statup!");
-    NSLog(@"yay, it worked!");
-    NSLog(@"Core data error.");
-    NSLog(@"------------------");
-    NSLog(@"fetch simple record");
-    NSLog(@"yay, it worked!");
-    
     // Override point for customization after application launch.
     return YES;
 }
