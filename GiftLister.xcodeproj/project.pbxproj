@@ -75,6 +75,7 @@
 		D3C25FDF167EA0D100B06593 /* crate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crate.png; sourceTree = "<group>"; };
 		D3C25FE1167ECB2200B06593 /* AddGiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGiftViewController.h; sourceTree = "<group>"; };
 		D3C25FE2167ECB2200B06593 /* AddGiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGiftViewController.m; sourceTree = "<group>"; };
+		D7DC1A23193B5E3200CD14DF /* wipe_db.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = wipe_db.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +109,7 @@
 		D3132428167D03BC00D44656 = {
 			isa = PBXGroup;
 			children = (
+				D7DC1A23193B5E3200CD14DF /* wipe_db.sh */,
 				D313243D167D03BC00D44656 /* GiftLister */,
 				D3132436167D03BC00D44656 /* Frameworks */,
 				D3132434167D03BC00D44656 /* Products */,

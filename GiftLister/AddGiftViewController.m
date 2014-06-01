@@ -127,8 +127,7 @@
         }
     } else {
         if ([self.delegate respondsToSelector:@selector(saveGift:)]) {
-            
-            
+        
             if (![self.price.text isEqualToString:@""]) {
                 self.gift.price = [NSNumber numberWithFloat:[self.price.text floatValue]];
             } else {

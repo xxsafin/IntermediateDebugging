@@ -115,8 +115,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];  
-    NSLog(@"in viewDidLoad");
-    NSLog(@"Loading friends..");
+ 
 
     DataStore *dataStore = [DataStore sharedDataStore];
     
@@ -128,9 +127,6 @@
     
     NSError *error;
     self.friends = [[context executeFetchRequest:fetchRequest error:&error] mutableCopy];
-
-
-    
     
     [self.tableView setBackgroundView:nil];
     [self.tableView setBackgroundColor:[UIColor clearColor]];
